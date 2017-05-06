@@ -1,2 +1,4 @@
-# Up-and-Running-with-python
-Basics of Python Programming
+# Python Programming
+
+1. Up-and-Running-with-python
+   =>Basics of Python Programming
