@@ -7,7 +7,7 @@ if a < b:
 else:
     print('a({}) is not less than b ({})'.format(a, b))
     
-# In above example the format is used for print fromatting
+# In above example the format is used for print formatting
 # format is a method of a string object
 
 # Conditional statement like in c
