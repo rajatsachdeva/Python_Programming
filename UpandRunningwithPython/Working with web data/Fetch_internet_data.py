@@ -1,5 +1,5 @@
 #
-# fetch internet data such as JSON, HTML, XML
+# fetch Internet data such as JSON, HTML, XML
 # We can work with this data easily
 #
 
