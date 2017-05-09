@@ -18,8 +18,8 @@ def main():
     m, n = map(int, raw_input().split())
     # get the the input array from user
     input_arr = map(int, raw_input().split())
-    A = map(int, raw_input().split())
-    B = map(int, raw_input().split())
+    A = set(map(int, raw_input().split()))
+    B = set(map(int, raw_input().split()))
     
     print get_happiness(input_arr, A, B)
     
@@ -27,13 +27,8 @@ def get_happiness(arr, a, b):
     happy = 0 # Initial happiness
     # remove duplicates
     arr_set = set(arr)
-    for i in arr_set:
-        if i in a:
-            happy += 1
-        elif i in b:
-            happy -= 1
-        else:
-            pass
+    count = [0 + 1 if x in a else 0 - 1 if x in b else 0 + 0 for x in arr_set]
+    happy = sum(count)
     return happy
 
 if __name__ == '__main__':
