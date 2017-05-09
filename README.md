@@ -6,4 +6,4 @@
 
 3. HackerRank - Python
 
-4. Code Clinic
+4. Code Clinic - Python
