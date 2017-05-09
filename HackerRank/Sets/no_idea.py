@@ -15,7 +15,7 @@ Output your final happiness at the end.
 '''
 def main():
     # size n of input array and m for Sets A and B
-    m, n = raw_input().split()
+    _, _ = raw_input().split()
     # get the the input array from user
     input_arr = map(int, raw_input().split())
     A = set(map(int, raw_input().split()))
