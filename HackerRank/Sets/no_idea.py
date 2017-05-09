@@ -15,21 +15,15 @@ Output your final happiness at the end.
 '''
 def main():
     # size n of input array and m for Sets A and B
-    m, n = map(int, raw_input().split())
+    m, n = raw_input().split()
     # get the the input array from user
     input_arr = map(int, raw_input().split())
     A = set(map(int, raw_input().split()))
     B = set(map(int, raw_input().split()))
-    
-    print get_happiness(input_arr, A, B)
-    
+    get_happiness(input_arr, A, B)
+
 def get_happiness(arr, a, b):
-    happy = 0 # Initial happiness
-    # remove duplicates
-    arr_set = set(arr)
-    count = [0 + 1 if x in a else 0 - 1 if x in b else 0 + 0 for x in arr_set]
-    happy = sum(count)
-    return happy
+    print sum([(i in a) - (i in b) for i in arr])
 
 if __name__ == '__main__':
     main()
