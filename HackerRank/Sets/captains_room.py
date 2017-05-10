@@ -31,7 +31,6 @@ cR = (sum(3) - sum(2)) / (k - 1)
 
 '''
 
-
 def main():
     # get the value of K, Number of members per group
     k = int(raw_input())
