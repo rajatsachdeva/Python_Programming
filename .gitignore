@@ -1,2 +1,6 @@
 /.pydevproject
 /.project
+*.jpg
+Code Clinic/Ex_Files_CC_Python_01/.DS_Store
+.DS_Store
+*.pyc
